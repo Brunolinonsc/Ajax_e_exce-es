@@ -20,5 +20,6 @@ document.addEventListener('DOMContentLoaded', function(){
             repos.innerText = json.public_repos;
             linkElement.herf = json.html_url;
         })
+        .catch(erro)
 
 })
