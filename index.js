@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function(){
             followingElement.innerText = json.following
             followersElement.innerText = json.followers
             repos.innerText = json.public_repos;
-            linkElement.herf = json.html_url;
+            linkElement.href = json.html_url;
         })
         .catch(function(erro){
             alert("Ocorreu um erro ao buscar o endereço, tente novamente mais tarde.")
